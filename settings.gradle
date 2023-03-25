@@ -10,9 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "MultiModulePub"
 include ':app'
 include ':mod1'
 include ':mod2'
+include ':mod3'
